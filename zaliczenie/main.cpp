@@ -12,11 +12,9 @@ int main() {
         cout << "Witaj uzytkowniku" << endl << endl;
         cout << "Jaka czynnosc chcesz wykonac" << endl;
         cout << "1. Dzialania na liczbach zespolonych" << endl;
-        // cout << "2. Obliczenie rezystancji rezystora, cewki lub kondensatora (prad staly lub zmienny)" << endl;
-        cout << "3. Obliczenie rezystancji z regresji liniowej" << endl;
-        //  cout << "4. Obliczenie rezystancji zastepczej w oczku" << endl;
-        cout << "5. Oblicz wyznacznik macierzy" << endl;
-        cout << "0. Wyjscie z programu" << endl;
+        cout << "2. Obliczenie rezystancji z regresji liniowej" << endl;
+        cout << "3. Oblicz wyznacznik macierzy" << endl;
+        cout << "40. Wyjscie z programu" << endl;
         cin >> x;
         if (!cin)
         {
@@ -29,15 +27,9 @@ int main() {
                 cout << "Chcesz obliczyć coś jeszcze ?"<<endl;
                 goto menu;
             case 2:
-                cout <<"rezystor";
-                goto menu;
-            case 3:
                 menereg();
                 goto menu;
-            case 4:
-                cout<<"zastepcza";
-                goto menu;
-            case 5:
+            case 3:
                 wyznacznik();
                 goto menu;
             case 0:
