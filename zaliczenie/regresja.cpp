@@ -76,7 +76,6 @@ float regresja(float *tab, int kol) {
     return rez;
 }
 
-//C:\Users\Michal\Desktop\Zeszyt1.txt
 void menereg() {
     string x = "";
     int number = 0;
@@ -88,6 +87,7 @@ void menereg() {
     int rez = regresja(tab, number);
     cout << "Rezystancja opornika w zaokragleniu wynosi: " << rez << endl;
 }
+
 
 
 
