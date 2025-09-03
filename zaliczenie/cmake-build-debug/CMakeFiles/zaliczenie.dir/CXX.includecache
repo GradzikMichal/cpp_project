@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Michal/CLionProjects/zaliczenie/regresja.cpp
+string
+-
+iostream
+-
+algorithm
+-
+fstream
+-
+cmath
+-
+
